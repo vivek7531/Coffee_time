@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.conn{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/workspace-1280538.jpg');
+    background-size:cover;
+    background-position: center; 
+    background-repeat:repeat;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .logo{
+    width: 185px;
+    height: 68px;
+    border-radius: 50%;
+    margin: -48px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar ul li{
+    list-style-type: none;
+    width: 120px;
+    display: inline-block;  
+  }
+  li{
+      color:#fff;
+  }
+  a{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 9px;
+  }
+  a:hover{
+      color:#fb2525;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    height: 150%;
+    margin: 21px;
+  }
+  .grid-item {
+    background-color: rgb(218 218 218 / 65%);
+    border: 3px solid rgb(239 71 71 / 77%);
+    padding: 20px;
+    margin: 7px;
+    height: 89%;
+    width: 85%;
+    text-align: center;
+  }
+ 
+  .grid-item p{
+   font-size: 16px;
+   text-align: left;
+  }
+  .grid-item b{
+      text-align: center;
+      margin: 2px;
+  }
+  .grid-item input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525db;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 19px;
+    margin-right: 27px;
+    width: 35%;
+    padding: 10px;
+    border: radius 20px;
+    margin-left: 22px;
+  }
+  .grid-item input[type="button"]:hover{
+      color: #fb2525;
+      background: rgba(255, 255, 255, 0.603);
+  }
+  .grid-item img{
+    width: 61%;
+    height: 50%;
+  }
+strong{
+    color: #bd3f3f;
+}
+#cart-value{
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border: 2px solid green;
+  border-radius: 50%;
+  padding: 5px;
+  color: black
+}

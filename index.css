@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.conn{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/workspace-1280538.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .logo{
+    width: 185px;
+    height: 68px;
+    border-radius: 50%;
+    margin: -48px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    width: 120px;
+    display: inline-block;  
+  }
+  li{
+      color:#fff;
+  }
+  a{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 9px;
+  }
+  a:hover{
+      color:#fb2525;
+  }
+
+.text{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text h1{
+    font-size: 58px;
+    margin: 2px;
+    color: #fff;
+}
+.text p{
+    color: #fff;
+    margin: 1px;
+}
+.text input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    position: absolute;
+    top: 57%;
+    width: 153px;
+    margin-left: -5%;
+}
+.text input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.603);
+    color: #fb2525;
+}
